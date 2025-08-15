@@ -1,0 +1,28 @@
+header{
+    background-color: #344e41;
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+.logocontainer{
+    display: flex;
+}
+
+.heading{
+    color: #A3B18A;
+}
+.heading, .navbar{
+    margin: 10px;
+    display: flex;
+}
+
+.link{
+    color:#A3B18A;
+    text-decoration: none;
+    font-size: 20px;
+    margin:10px;
+}
+
+.link:hover{
+    color: #DAD7CD;
+}
