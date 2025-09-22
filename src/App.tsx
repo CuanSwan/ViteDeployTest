@@ -14,7 +14,7 @@ function App() {
             <Route path="/" element={<HomePage/>} />
             <Route path="/user/login" element={<LoginPage/>} />
             <Route path="/user/register" element={<RegisterPage/>} />
-            <Route path="/user/edit" element={<EditPage/>} />
+            <Route path="/user/edit" element={<EditPage/>} /> {/*Add edit page*/}
         </Routes>
       <Footer/>
       </BrowserRouter>
